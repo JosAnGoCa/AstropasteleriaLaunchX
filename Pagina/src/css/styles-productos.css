@@ -1,0 +1,129 @@
+/* TITULARES */
+.titulo-catalogo {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 100;
+}
+
+/**/
+.opciones-catalogo_area {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 45px;
+    padding-left: 30px;
+    margin-top: 80px;
+}
+
+.opciones-catalogo_contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 0px;
+    grid-auto-rows: 600px;
+}
+
+/* TARJETAS */
+.opciones-catalogo_opcion {
+    margin-bottom: 50px;
+    width: 410px;
+    height: 550px;
+    grid-template-rows: 115px 210px 80px 130px;
+}
+
+.opciones-catalogo_titulo,
+.opciones-catalogo_precio,
+.opciones-catalogo_descripcion {
+    justify-content: center;
+}
+
+.opciones-catalogo_opcion .opciones-catalogo_titulo {
+    font-size: 45px;
+}
+
+.opciones-catalogo_img {
+    width: 324px;
+    height: 216px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    justify-self: center;
+}
+
+.opciones-catalogo_img {
+    background: #fff;
+}
+
+.opciones-catalogo_img .w-100 {
+    width: 100%;
+}
+
+.opciones-catalogo_img .h-100 {
+    height: 100%;
+}
+
+.opciones-catalogo_opcion .opciones-catalogo_precio {
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.opciones-catalogo_opcion .opciones-catalogo_descripcion {
+    font-size: 20px;
+    line-height: 25px;
+    height: 100%;
+    align-items: start;
+    margin: 0 40px;
+}
+
+#fin-opciones {
+    display: flex;
+}
+
+#fin-opciones a {
+    display: block;
+    margin: 50px auto;
+}
+
+/* PLANETAS */
+
+.planeta img {
+    position: relative;
+}
+
+.planeta-10 {
+    width: 682px;
+    top: -140px;
+    left: -1250px;
+}
+
+.planeta-11 {
+    width: 1024px;
+    top: -32px;
+    left: -1110px;
+}
+
+.planeta-12 {
+    width: 1024px;
+    top: 10px;
+    left: -2000px;
+}
+
+.planeta-13 {
+    width: 215px;
+    top: 480px;
+    left: -630px;
+}
+
+.planeta-14 {
+    width: 770px;
+    top: 400px;
+    left: -1050px;
+}
+
+.planeta-15 {
+    width: 964px;
+    top: 70px;
+    left: -650px;
+}

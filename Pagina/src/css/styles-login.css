@@ -1,0 +1,108 @@
+#body {
+    display: grid;
+    grid-template-columns: 1fr 0px;
+    height: 1010px;
+}
+
+.login-glass {
+    margin: 80px auto;
+    width: 900px;
+    height: 816px;
+    grid-template-rows: 180px;
+    align-items: flex-start;
+}
+
+.login-glass .titulo-login {
+    display: block;
+    margin-top: 75px;
+}
+
+.campo-form {
+    display: grid;
+    grid-template-columns: 200px 490px;
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
+
+.campo-form p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.campo-form i {
+    grid-row: 1 / span 2;
+    font-size: 110px;
+}
+
+.campo-form input {
+    height: 60px;
+    width: 480px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(220, 220, 220);
+    transition: color 200ms;
+}
+
+.campo-form input:focus {
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+.login_registro {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 55px;
+}
+
+.form-cambiar {
+    text-decoration: underline;
+    color: #001855;
+}
+
+.login_boton-entrar {
+    font-size: 30px;
+    color: #fff;
+    width: 415px;
+    height: 95px;
+    background: #001855;
+    box-shadow: inset -2px 4px 4px rgba(255, 255, 255, 0.38);
+    border-radius: 10px;
+    transition: background 200ms;
+}
+
+.login_boton-entrar:hover {
+    background: #112b6b;
+}
+
+.fa-rocket {
+    margin-left: 20px;
+    transform: scale(2, 2);
+}
+
+/* PLANETAS */
+
+.planeta-04 {
+    width: 130px;
+    position: relative;
+    top: 0px;
+    left: -1400px;
+}
+
+.planeta-05 {
+    width: 600px;
+    position: relative;
+    top: -50px;
+    left: -600px;
+}
+
+.planeta-06 {
+    width: 740px;
+    position: relative;
+    top: -50px;
+    left: -1490px;
+}

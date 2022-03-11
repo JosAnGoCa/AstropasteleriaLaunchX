@@ -1,0 +1,183 @@
+/* ! FUENTE */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+/* !ESTILOS GENERALES */
+body {
+    font-family: "Audiowide", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body,
+.limitador {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#body {
+    background: url(../img/stardust.png);
+    padding: 80px;
+    z-index: 0;
+    overflow: hidden;
+    /* height: 1000px; */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ! NAVEGACION */
+#nav {
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+    height: 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+#nav .limitador {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.nav-item {
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav_nombre a {
+    display: block;
+    height: 100%;
+    font-size: 30px;
+}
+
+.nav_opciones ul {
+    align-content: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav_opciones ul li a {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    transition: background 200ms;
+}
+
+.nav_opciones ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: -4px 4px 4px rgba(255, 255, 255, 0.1) inset;
+}
+
+.nav_button-entrar {
+    display: grid;
+    align-content: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.nav_button-entrar a {
+    display: block;
+    width: 135px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    background: #001855;
+    box-shadow: inset -2px 4px 4px rgba(255, 255, 255, 0.38);
+    border-radius: 10px;
+    transition: background 200ms;
+}
+
+.nav_button-entrar a:hover {
+    background: #112b6b;
+}
+
+/* ! CONTENIDO */
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 4px -4px 4px rgba(0, 0, 0, 0.25),
+        inset -4px 4px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(42px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 30px;
+    color: #ffffff;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.glass p {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.btn-glass {
+    font-size: 40px;
+    background: rgba(0, 194, 255, 0.15);
+    width: 410px;
+    height: 200px;
+    align-content: center;
+    z-index: 10;
+}
+
+/* ! PIE DE PAGINA */
+#footer {
+    background: #000000;
+    box-shadow: 0px -4px 4px rgba(255, 255, 255, 0.5);
+    height: 280px;
+}
+
+#footer a,
+#footer div {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer .limitador {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer_izquireda-encuentranos {
+    font-size: 30px;
+}
+
+.footer_izquierda-ubicacion {
+    font-size: 25px;
+    width: 425px;
+}
+
+.footer_derecha,
+.creador {
+    text-align: right;
+}
+
+.footer_derecha p {
+    font-size: 30px;
+}
+
+.footer_derecha ul {
+    font-size: 25px;
+    list-style: none;
+    line-height: 35px;
+}
+
+.derechos,
+.creador {
+    margin-top: 40px;
+    font-size: 20px;
+}
